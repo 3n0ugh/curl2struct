@@ -35,6 +35,7 @@ func (a *Arg) IsURL() bool {
 
 func (a *Arg) ParseHeader() (key, value string) {
 	key, value, _ = strings.Cut(a.String(), ":")
+	value = strings.TrimSpace(value)
 	return
 }
 
