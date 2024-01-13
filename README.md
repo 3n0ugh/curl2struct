@@ -8,7 +8,7 @@ This can be particularly useful when working on Golang projects and needing to t
 To install `curl2struct`, you can use `go get`:
 
 ```bash
-go get -u github.com/yourusername/curl2struct
+go get -u github.com/3n0ugh/curl2struct
 ```
 
 ## Usage
