@@ -33,7 +33,7 @@ jobs:
             sudo go tool cover -func coverage.out
     - name: Quality Gate
       env:
-          TESTCOVERAGE_THRESHOLD: 20
+          TESTCOVERAGE_THRESHOLD: 95
       run: |
             echo "Quality Gate: checking test coverage is above threshold ..."
             echo "Threshold             : $TESTCOVERAGE_THRESHOLD %"
