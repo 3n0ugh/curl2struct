@@ -1,4 +1,12 @@
-github.com/3n0ugh/curl2struct v0.0.1 h1:wVil3AFhOVZRkopNx0idROfFJK/Nqbm160om5csVCtA=
-github.com/3n0ugh/curl2struct v0.0.1/go.mod h1:iaqnjuX22SY+vF3mvv4ZVM+j6LJwO89Km+g6WmVHYoQ=
+github.com/3n0ugh/curl2struct v0.0.2 h1:BVro1m7V2xC0mAGy4f0WtAx3fl6ys6tBoI448yhUzdc=
+github.com/3n0ugh/curl2struct v0.0.2/go.mod h1:g9eRhRaWKwg7ODE7ChSa1SPc8Hod1AFcDQCZOEmJk0E=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/mattn/go-shellwords v1.0.12 h1:M2zGm7EW6UQJvDeQxo4T51eKPurbeFbe8WtebGE2xrk=
 github.com/mattn/go-shellwords v1.0.12/go.mod h1:EZzvwXDESEeg03EKmM+RmDnNOPKG4lLtQsUlTZDWQ8Y=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
+github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
