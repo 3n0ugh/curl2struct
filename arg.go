@@ -15,15 +15,10 @@ func NewArgs(args []string) Args {
 }
 
 func (as Args) format() {
-	args := Args{}
-	for _, a := range as {
-		if a == "\n" {
-			continue
-		}
+	for i, a := range as {
 		a.format()
-		args = append(args, a)
+		as[i] = a
 	}
-	copy(as, args)
 }
 
 type Arg string
@@ -31,9 +26,7 @@ type Arg string
 func (a *Arg) format() {
 	*a = Arg(strings.TrimSpace(a.String()))
 	*a = Arg(strings.ReplaceAll(a.String(), "\n", ""))
-	if !a.IsURL() {
-		*a = Arg(strings.TrimLeft(a.String(), "$"))
-	}
+	*a = Arg(strings.TrimLeft(a.String(), "$"))
 }
 
 func (a *Arg) IsURL() bool {
