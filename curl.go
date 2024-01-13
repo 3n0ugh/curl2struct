@@ -59,7 +59,7 @@ func (c *CURL) parse(as Args) {
 			c.Headers.Set("User-Agent", a.String())
 			state = ""
 		case BODY:
-			c.Body = []byte(strings.Join([]string{string(c.Body), a.String()}, "&"))
+			c.Body = []byte(a.String())
 			state = ""
 		case USER:
 			c.Headers.Set("Authorization", "Basic "+base64.StdEncoding.EncodeToString([]byte(a.String())))
