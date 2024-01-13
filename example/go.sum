@@ -1,0 +1,4 @@
+github.com/3n0ugh/curl2struct v0.0.1 h1:wVil3AFhOVZRkopNx0idROfFJK/Nqbm160om5csVCtA=
+github.com/3n0ugh/curl2struct v0.0.1/go.mod h1:iaqnjuX22SY+vF3mvv4ZVM+j6LJwO89Km+g6WmVHYoQ=
+github.com/mattn/go-shellwords v1.0.12 h1:M2zGm7EW6UQJvDeQxo4T51eKPurbeFbe8WtebGE2xrk=
+github.com/mattn/go-shellwords v1.0.12/go.mod h1:EZzvwXDESEeg03EKmM+RmDnNOPKG4lLtQsUlTZDWQ8Y=
