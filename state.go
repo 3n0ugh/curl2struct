@@ -28,4 +28,5 @@ var Arg2State = map[Arg]State{
 	"-b":           COOKIE,
 	"--cookie":     COOKIE,
 	"":             EMPTY,
+	"\n":           EMPTY,
 }
